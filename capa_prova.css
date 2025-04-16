@@ -1,0 +1,50 @@
+body, html {
+    margin: 0;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.verde {
+    background: #23342b;
+    width: 60%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.claro {
+    background: #BFC4AC;
+    width: 40%;
+    height: 100vh;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: #5ee854;
+}
+
+img {
+    width: 50%;
+    background: none;
+}

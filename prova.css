@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* cor suave para o fundo geral */
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #3b4d3a; /* um verde mais escuro */
+    color: #fff;
+    padding: 15px 20px;
+    top: 0;
+    left: 0;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  .container {
+    /* Aumentar para usar mais espaço na tela */
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 30px 20px; 
+    background-color: #ffffff; /* fundo branco para o conteúdo */
+    border-radius: 10px; 
+  }
+  
+  /* Se quiser que o fundo verde de cima “invada” um pouco a parte branca */
+  .container-header {
+    margin-top: 3%;
+    background-color: #5f7b5e; 
+    padding: 40px 20px; 
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+.container-header h2 {
+    color: #fff;
+}
+
+  .profile-photo {
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff; /* adiciona borda branca */
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px; 
+  }
+  
+  h2 {
+    color: #3b4d3a; /* cor verde-escura para títulos */
+    margin-top: 0;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px
+  }
+
+  header img {
+    height: 30px;
+    max-height: 100%;
+  }
+
+#linkedin {
+    margin-right: 10px
+}
