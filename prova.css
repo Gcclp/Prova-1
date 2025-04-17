@@ -80,6 +80,10 @@ body {
     max-height: 100%;
   }
 
+li {
+  margin-bottom: 10px;
+}
+
 #linkedin {
     margin-right: 10px
 }
